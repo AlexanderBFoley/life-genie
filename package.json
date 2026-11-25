@@ -1,0 +1,15 @@
+{
+  "name": "life-genie",
+  "version": "1.0.0",
+  "description": "Real-time local dual-loop Life Genie / Omni-Presence Companion. Integrates with AEGIS :5180, local STT/TTS/LLM, gated CUA.",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "ws": "^8.18.0"
+  }
+}
